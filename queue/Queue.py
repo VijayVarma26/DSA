@@ -15,8 +15,7 @@ class Queue():
     def size(self):
         return len(self.items)
     
-
-#  Testing Queue Implemntation
+#  Testing Queue Implementation
 
 # Create Queue object
 q = Queue()
