@@ -4,12 +4,12 @@ import unittest
 # Kadanes Algorithm 
 def max_subarray_sum(array):
     max_sum = -math.inf
-    con_sum = 0
+    current_sum = 0
     for i in array:
-        con_sum += i
-        max_sum = max(max_sum, con_sum)
-        if con_sum < 0:
-            con_sum = 0
+        current_sum += i
+        max_sum = max(max_sum, current_sum)
+        if current_sum < 0:
+            current_sum = 0
     return max_sum
 
 class TestMaxSubarraySum(unittest.TestCase):
