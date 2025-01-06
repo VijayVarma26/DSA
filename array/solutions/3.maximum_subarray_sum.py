@@ -3,7 +3,7 @@ import unittest
 
 # Kadanes Algorithm 
 def max_subarray_sum(array):
-    max_sum = -math.inf
+    max_sum = -math.inf 
     current_sum = 0
     for i in array:
         current_sum += i
