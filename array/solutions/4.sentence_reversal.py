@@ -6,7 +6,6 @@ def reverse_sentence_list_slicing(str):
     str = str.strip().split()
     return " ".join(str[::-1])
 
-
 # Iterating over list
 def reverse_sentence_iterating(str):
     str = str.strip().split()
